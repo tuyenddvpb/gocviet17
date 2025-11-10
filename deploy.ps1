@@ -7,12 +7,6 @@ Write-Host "Starting deployment..."
 Write-Host "Building project..."
 npm run build
 
-# 2️⃣ Copy CNAME file to dist (if exists)
-$CnameFile = "CNAME"
-if (Test-Path $CnameFile) {
-    Write-Host "Copying CNAME to dist..."
-    Copy-Item -Path $CnameFile -Destination "dist/CNAME" -Force
-}
 
 # 3️⃣ Create a temporary branch from dist
 Write-Host "Creating temporary branch from dist..."
