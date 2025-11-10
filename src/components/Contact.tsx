@@ -19,8 +19,8 @@ export default function Contact() {
               <div>
                 <h3 className="text-xl font-bold text-white mb-2">ADRESSE</h3>
                 <p className="text-white/70 leading-relaxed">
-                  Musterstraße 123<br />
-                  80333 München<br />
+                  Kupferstraße 17<br />
+                  85049 Ingolstadt<br />
                   Deutschland
                 </p>
               </div>
@@ -30,7 +30,7 @@ export default function Contact() {
               <Phone className="w-8 h-8 text-[#ca9c5e] flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-xl font-bold text-white mb-2">TELEFON</h3>
-                <p className="text-white/70">+49 89 1234 5678</p>
+                <p className="text-white/70">0841 99474559</p>
               </div>
             </div>
 
@@ -38,7 +38,7 @@ export default function Contact() {
               <Mail className="w-8 h-8 text-[#ca9c5e] flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-xl font-bold text-white mb-2">EMAIL</h3>
-                <p className="text-white/70">info@vietnam-restaurant.de</p>
+                <p className="text-white/70">info@gocviet17.com</p>
               </div>
             </div>
 
@@ -47,8 +47,9 @@ export default function Contact() {
               <div>
                 <h3 className="text-xl font-bold text-white mb-2">ÖFFNUNGSZEITEN</h3>
                 <div className="text-white/70 space-y-1">
-                  <p>Montag - Freitag: 11:30 - 14:30, 17:30 - 22:00</p>
-                  <p>Samstag - Sonntag: 12:00 - 22:00</p>
+                  <p>Montag - Freitag: 11:00 - 14:30, 17:00 - 21:30</p>
+                  <p>Samstag: 17:00 - 21:30</p>
+                  <p>Sonntag: 12:00 - 15:00 & 17:00 - 21:30</p>
                 </div>
               </div>
             </div>
@@ -129,7 +130,7 @@ export default function Contact() {
 
         <div className="mt-16 text-center border-t border-[#ca9c5e]/20 pt-8">
           <p className="text-white/60">
-            © 2024 Vietnam Restaurant. Alle Rechte vorbehalten.
+            © 2025 Gocviet17.Com. Alle Rechte vorbehalten.
           </p>
         </div>
       </div>
