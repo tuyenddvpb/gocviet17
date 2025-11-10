@@ -1,27 +1,27 @@
 export default function Gallery() {
   const images = [
     {
-      url: 'https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://cdn.tgdd.vn/Files/2022/01/25/1412805/cach-nau-pho-bo-nam-dinh-chuan-vi-thom-ngon-nhu-hang-quan-202201250313281452.jpg',
       title: 'Phở'
     },
     {
-      url: 'https://images.pexels.com/photos/1907244/pexels-photo-1907244.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://mia.vn/media/uploads/blog-du-lich/pho-cuon-ha-noi-o-sai-gon-06-1722820585.jpg',
       title: 'Frühlingsrollen'
     },
     {
-      url: 'https://images.pexels.com/photos/4393426/pexels-photo-4393426.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2023_3_4_638135494683018162_cach-lam-bun-cha-bang-noi-chien-khong-dau-1.jpg',
       title: 'Bún Chả'
     },
     {
-      url: 'https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/banh_mi_man_3051eb6d27.jpg',
       title: 'Bánh Mì'
     },
     {
-      url: 'https://images.pexels.com/photos/5409015/pexels-photo-5409015.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://www.gefu.com/media/9c/d2/28/1744285447/20230126_183231.jpg?ts=1746623102',
       title: 'Sommerrollen'
     },
     {
-      url: 'https://images.pexels.com/photos/2098143/pexels-photo-2098143.jpeg?auto=compress&cs=tinysrgb&w=800',
+      url: 'https://emdoi.vn/wp-content/uploads/2025/04/com-tam-ngon-quan-1-0.webp',
       title: 'Cơm Tấm'
     }
   ];

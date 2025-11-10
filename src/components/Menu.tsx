@@ -3,34 +3,37 @@ export default function Menu() {
     {
       category: 'VORSPEISEN',
       items: [
-        { name: 'Gỏi Cuốn', description: 'Frische Sommerrollen mit Garnelen & Kräutern', price: '8.50' },
-        { name: 'Nem Rán', description: 'Knusprige Frühlingsrollen mit Schweinefleisch', price: '7.90' },
-        { name: 'Bánh Bao Chiên', description: 'Gebackene Teigtaschen mit Gemüse', price: '7.50' },
+        { name: 'Gỏi Cuốn', description: 'Sommerrollen mit Reispapier, frischen viet. Kräutern, Koriander, Reisnudeln dazu Hoisin-Soße', price: '5,20' },
+        { name: 'Gà rang muối', description: 'Salzige gebratene chickenwings mit Limettenblätter Zitronengras, Zwiebeln, Kloblauch', price: '6,20' },
+        { name: 'Edemame', description: 'gedämpfte Sojabohnen am Zweig im Bambustopf', price: '4,90' },
+        { name: 'Nem chay', description: '6 Mini vegetarische Frühlingsrollen mit Salat und süß scharfe Soße', price: '4,90' },
+        { name: 'Chả giò', description: '2 Knusprige Frühlingsrollen mit Hühnerfleisch, Morcheln, Glasnudeln & Karotten', price: '5,90' },
+        { name: 'Há cảo', description: '4 gedämpfte Teigtaschen aus Reismehlteig gefüllt mit Garnelen dazu Salt und Sojasoße', price: '5,20' },
       ]
     },
     {
       category: 'SUPPEN',
       items: [
-        { name: 'Phở Bò', description: 'Klassische Rindfleisch-Nudelsuppe', price: '13.90' },
-        { name: 'Bún Bò Huế', description: 'Scharfe Rindsuppe nach Huế-Art', price: '14.50' },
-        { name: 'Phở Gà', description: 'Hühner-Nudelsuppe mit frischen Kräutern', price: '12.90' },
+        { name: 'Súp hoành thánh', description: 'Suppe mit Wantan gefüllt mit Garnelen und Hähnchen dazu Pak Choi', price: '5,90' },
+        { name: 'Canh chua tôm', description: 'Garnelensuppe mit Tomaten, Sojasprossen, Basilikum', price: '6,20' },
+        { name: 'Canh chua cá', description: 'Suppe mit Lachs, Tomaten, Sojasprossen, Basilikum', price: '5,90' },
       ]
     },
     {
       category: 'HAUPTGERICHTE',
       items: [
-        { name: 'Bún Chả', description: 'Gegrilltes Schweinefleisch mit Reisnudeln', price: '14.90' },
-        { name: 'Cơm Tấm', description: 'Gebrochener Reis mit gegrilltem Schweinekotelett', price: '13.90' },
-        { name: 'Bò Lúc Lắc', description: 'Würziges Rindfleisch mit Gemüse', price: '16.50' },
-        { name: 'Cá Kho Tộ', description: 'Karamellisierter Fisch im Tontopf', price: '15.90' },
+        { name: 'Phở Hà Nội', description: 'Rindfleischsuppe wird einen tag lang unter Tygabe von Starnanis, Kardamon mit gerillten zwiebeln eingekocht. Sie wird mit Reisbandnudeln und Rindfleisch serviert', price: '14,90' },
+        { name: 'Chả cá Lã Vọng', description: 'Gegrillt Fisch nach Lã Vọng -Art : Fisch, Kurkuma, Dill, Frühlingszwiebeln, Galgant, Garnelenpaste, Fischsoße, Erdnuss, Reisnudeln)', price: '21,90' },
+        { name: 'Cá om Chuối Đậu', description: 'Geschmorte Fisch mit grünen Bananen und Tofu besteht aus folgenden Zutaten: Fisch, Grüne Bananen, Tofu, Frühlingszwiebeln, Perillablätter, Pfefferblätter, Galgant, Schalotten, Knoblauch Kurkuma Shrimp-Paste,', price: '21,90' },
+        { name: 'Bun bo Hue', description: 'Reisnudeln Suppe mit Rind. , Schweinerfleisch, Garnelen ,Salat und frische Kräuter', price: '15,90' },
       ]
     },
     {
-      category: 'DESSERTS',
+      category: 'SUSHI MENÜ',
       items: [
-        { name: 'Chè Ba Màu', description: 'Dreifarbiges Dessert mit Kokosmilch', price: '5.50' },
-        { name: 'Bánh Flan', description: 'Vietnamesischer Karamell-Pudding', price: '5.90' },
-        { name: 'Chè Chuối', description: 'Warmes Bananen-Dessert', price: '5.50' },
+        { name: 'Für 3 Personen', description: '6 Crunchy Ebi Rolls, 8 Tuna Maki, 8 Lachs Maki, 8 Avocado Maki, 8 inside out Sake Philadelphia Rolls, 8 Samolskill inside out, 1 Lachs Sashimi, 7 Nigiri', price: '60,90' },
+        { name: 'Für 2 Personen', description: '4 Lachs Maki, 4 Tekka Maki, 4 Avocado Maki, 4 Gurken Maki, 5 Nigiri, 8 Tuna inside out, 8 Sake inside out', price: '36,90' },
+        { name: 'Otawa Menü', description: '6 Crunchy Ebi, 8 Avocado Maki, 2 Sake Nigiri, 2 Avocado Nigiri', price: '19,90' },
       ]
     }
   ];
@@ -77,9 +80,9 @@ export default function Menu() {
           <p className="text-white/70 mb-8 text-lg">
             Alle Gerichte können auch vegetarisch oder vegan zubereitet werden
           </p>
-          <button className="bg-[#ca9c5e] hover:bg-[#b8894e] text-white px-10 py-4 text-lg font-semibold tracking-wider transition-all transform hover:scale-105">
+          <a type="button" href="https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=6e9f4105-5397-4941-a6e1-8efb64dd7df0&client_is_mobile=true" target="_blank" className="bg-[#ca9c5e] hover:bg-[#b8894e] text-white px-10 py-4 text-lg font-semibold tracking-wider transition-all transform hover:scale-105">
             VOLLSTÄNDIGE KARTE ANSEHEN
-          </button>
+          </a>
         </div>
       </div>
     </section>

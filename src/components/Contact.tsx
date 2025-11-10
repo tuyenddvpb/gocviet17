@@ -118,12 +118,12 @@ export default function Contact() {
                 />
               </div>
 
-              <button
-                type="submit"
+              <a
+                type="button" href="https://www.foodbooking.com/ordering/restaurant/menu/reservation?restaurant_uid=6e9f4105-5397-4941-a6e1-8efb64dd7df0&reservation=true&client_is_mobile=true" target="_blank"
                 className="w-full bg-[#ca9c5e] hover:bg-[#b8894e] text-white py-4 text-lg font-semibold tracking-wider transition-all transform hover:scale-105"
               >
                 RESERVIERUNG SENDEN
-              </button>
+              </a>
             </form>
           </div>
         </div>
